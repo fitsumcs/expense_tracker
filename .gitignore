@@ -1,0 +1,61 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+
+# Django stuff
+db.sqlite3
+*.log
+
+# Migrations
+*/migrations/*
+!*/migrations/__init__.py
+
+# Media/Uploaded files
+media/
+staticfiles/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+
+# Environment variables
+.env
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Test coverage
+htmlcov/
+.tox/
+.coverage
+.cache
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# PyCharm-specific
+*.iml
+.idea/
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# MyPy
+.mypy_cache/
+
+# Node.js
+node_modules/
+
+# Build
+build/
+dist/
+*.egg-info/

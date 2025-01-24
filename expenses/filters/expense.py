@@ -1,5 +1,6 @@
 from django_filters import rest_framework as filters
-from .models import Expense
+
+from expenses.models import Expense
 
 class ExpenseFilter(filters.FilterSet):
     start_date = filters.DateFilter(field_name="date", lookup_expr="gte")
